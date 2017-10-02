@@ -16,5 +16,7 @@ VASP - **V**im **A**uto **S**ession **P**lugin
   
   To create a session in the current working directory, assign a value to the `g:vasp_session_name` variable and call `VaspSaveSession`:
   
-  ```let g:vasp_session_name = MySessionName
-  :call VaspSaveSession()```
+  ```f
+  :let g:vasp_session_name = MySessionName
+  :call VaspSaveSession()
+  ```
